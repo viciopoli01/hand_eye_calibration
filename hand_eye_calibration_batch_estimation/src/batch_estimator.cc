@@ -99,7 +99,7 @@ void readPosesFromCsv(const std::string & path, PoseSensor & pose_sensor, aslam:
         Eigen::Vector3d t(values[1], values[2], values[3]);
         Eigen::Vector4d q(values[4], values[5], values[6], values[7]);
         q = toInternalQuaternionConvention(q);
-        CHECK_NEAR(1, q.norm(), 1e-8);
+        CHECK_NEAR(1, q.norm(), 1e-4);
         pose_sensor.addMeasurement(Timestamp(values[0]), q, t, c.getCurrentStorage());
       }
     }

@@ -1,8 +1,7 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 from subprocess import call
 import argparse
 import yaml
-
 
 class TargetExtractorConfig(object):
   base_directory = ""

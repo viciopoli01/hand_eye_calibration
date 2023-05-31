@@ -1,0 +1,48 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/viciopoli/RPG/data_recording_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_optimizer/aslam_backend/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_optimizer/aslam_backend_expressions/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_cv2/aslam_cv_calibration/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_cv2/aslam_cv_cameras/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_cv2/aslam_cv_common/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_cv2/aslam_cv_frames/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_cv2/aslam_cv_geometric_vision/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_cv2/aslam_cv_matcher/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_splines/aslam_splines/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_splines/bsplines/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/eigen_checks/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/ethzasl_apriltag2/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/minkindr/minkindr/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/oomact/oomact/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/opengv/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_boost/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_common/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_deprecation/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_eigen/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_kinematics/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_logging/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_matrix_archive/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_property_tree/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_random/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_timing/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/schweizer_messer/sm_value_store/include/**",
+        "/home/viciopoli/RPG/data_recording_ws/src/aslam_optimizer/sparse_block_matrix/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 import unittest
 
 from hand_eye_calibration.time_alignment import (
